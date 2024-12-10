@@ -1,0 +1,23 @@
+{
+  "name": "apt-billing-app",
+  "version": "1.0.0",
+  "description": "grocery billing server",
+  "main": "server.ts",
+  "scripts": {
+    "start": "ts-node ./src/server.ts",
+    "dev": "nodemon ./src/server.ts"
+  },
+  "author": "anivkuttan196@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "mongoose": "^8.8.4"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
